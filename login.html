@@ -1,0 +1,142 @@
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="asset/images/logo (dark icon).png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="asset/font/stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="ceate-account-page-container">
+    <div class="create-acc-container">
+      <div class="create-acc-context">
+        <div class="create-context-text">
+            <div class="create-acc-head">
+                <img src="image/unnamed-removebg-preview.png" class="img">
+                <h5>Contentgenie</h5>
+            </div>
+        </div>
+
+        <!-- SLIDER -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="9000">
+              <div class="head-text-slide">
+                <p>
+                  Manage all your social media and blog posts on one simple dashboard.
+                </p>
+                <small>
+                  Compose, plan and publish content to mutiple social channels in seconds.  
+                </small>
+              </div>
+              <div class="login-img-body">
+                <div class="login-img-one">
+                  <img src="image/autumn-9251331_1280.jpg" class="d-block w-100 img" alt="...">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="9000">
+              <div class="head-text-slide">
+                <p>
+                  Conquer writer's block with AI
+                </p>
+                <small>
+                  Use AI to Generate High Converting Content for your Social Media and Blog
+                </small>
+              </div>
+              <div class="login-img-body">
+                <div class="login-img-one">
+                  <img src="image/robin-9361610_1280.jpg" class="d-block w-100 img" alt="...">
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="carousel-item" data-bs-interval="9000">
+              <div class="head-text-slide">
+                <p>
+                    Empower your Business with actionable Insights:
+                </p>
+                <small>
+                    Master your Social Channels' Performance for Informed Decision-Making Success!
+                </small>
+              </div>
+              <div class="login-img-body">
+                <div class="login-img-one">
+                  <img src="./asset/images/login image 3.png" class="d-block w-100 img" alt="...">
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- SLIDER ENDS HERE-->
+
+      </div>
+
+      <!-- LOGIN CONTENT -->
+      <div class="login-content-container user-login-content-container">
+         <div class="login-content">
+           <div class="login-content-head">
+             <h5>User Login</h5>
+             <h6>Enter your details and start your journey with us!</h6>
+           </div>
+           <div class="login-content-body">
+             <div class="login-input">
+                <label for="email">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16"><path d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140-685v465h680v-465L480-462Zm0-60 336-218H145l335 218ZM140-685v-55 520-465Z"/></svg>
+                    <small>Email</small>
+                </label>
+               <input type="email" name="email" id="email" placeholder="Eg:mymail@gmail.com" required>
+             </div>
+             <div class="login-input">
+               <label for="password">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16"><path d="M220-80q-24.75 0-42.375-17.625T160-140v-434q0-24.75 17.625-42.375T220-634h70v-96q0-78.85 55.606-134.425Q401.212-920 480.106-920T614.5-864.425Q670-808.85 670-730v96h70q24.75 0 42.375 17.625T800-574v434q0 24.75-17.625 42.375T740-80H220Zm0-60h520v-434H220v434Zm260.168-140Q512-280 534.5-302.031T557-355q0-30-22.668-54.5t-54.5-24.5Q448-434 425.5-409.5t-22.5 55q0 30.5 22.668 52.5t54.5 22ZM350-634h260v-96q0-54.167-37.882-92.083-37.883-37.917-92-37.917Q426-860 388-822.083 350-784.167 350-730v96ZM220-140v-434 434Z"/></svg>
+                  <small>Password</small>
+               </label>
+               <div class="user-login-input">
+                 <input type="password" name="password" id="password" placeholder="********" required>
+                 <button class="view-password-btn" onclick="viewpass()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="eyeicon" height="16" viewBox="0 -960 960 960" width="16"><path d="M480.118-330Q551-330 600.5-379.618q49.5-49.617 49.5-120.5Q650-571 600.382-620.5q-49.617-49.5-120.5-49.5Q409-670 359.5-620.382q-49.5 49.617-49.5 120.5Q310-429 359.618-379.5q49.617 49.5 120.5 49.5Zm-.353-58Q433-388 400.5-420.735q-32.5-32.736-32.5-79.5Q368-547 400.735-579.5q32.736-32.5 79.5-32.5Q527-612 559.5-579.265q32.5 32.736 32.5 79.5Q592-453 559.265-420.5q-32.736 32.5-79.5 32.5ZM480-200q-146 0-264-83T40-500q58-134 176-217t264-83q146 0 264 83t176 217q-58 134-176 217t-264 83Zm0-300Zm-.169 240Q601-260 702.5-325.5 804-391 857-500q-53-109-154.331-174.5-101.332-65.5-222.5-65.5Q359-740 257.5-674.5 156-609 102-500q54 109 155.331 174.5 101.332 65.5 222.5 65.5Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="close-eye" height="16" viewBox="0 -960 960 960" width="16"><path d="m644-428-58-58q9-47-27-88t-93-32l-58-58q17-8 34.5-12t37.5-4q75 0 127.5 52.5T660-500q0 20-4 37.5T644-428Zm128 126-58-56q38-29 67.5-63.5T832-500q-50-101-143.5-160.5T480-720q-29 0-57 4t-55 12l-62-62q41-17 84-25.5t90-8.5q151 0 269 83.5T920-500q-23 59-60.5 109.5T772-302Zm20 246L624-222q-35 11-70.5 16.5T480-200q-151 0-269-83.5T40-500q21-53 53-98.5t73-81.5L56-792l56-56 736 736-56 56ZM222-624q-29 26-53 57t-41 67q50 101 143.5 160.5T480-280q20 0 39-2.5t39-5.5l-36-38q-11 3-21 4.5t-21 1.5q-75 0-127.5-52.5T300-500q0-11 1.5-21t4.5-21l-84-82Zm319 93Zm-151 75Z"/></svg>
+                 </button>
+               </div>
+             </div>
+             <div class="forget-password">
+               <a href="#">Forget Password?</a>
+             </div>
+             <div class="login-buttons">
+               <button class="create-acc-btn">Login</button>
+             </div>
+             <div class="login-content-footer">
+               <small>2023 all rights reserved</small>
+               <h6>Contentgenie is a product of Catex Technologies</h6>
+             </div>
+           </div>
+         </div>
+      </div>
+      <!-- LOGIN CONTENT ENDS HERE-->
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="asset/app_asset/js/script.js"></script>
+  <script src="asset/app_asset/js/bright.js"></script>
+</body>
+</html>
